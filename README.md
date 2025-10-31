@@ -10,18 +10,18 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=pedroleitep&bg_color=00000&color=5817fc&line=5817fc&point=5817fc&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pedroleitep&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=pedroleitep&ryo-ma&theme=aura&ryo-ma&rank=-?&ryo-ma&column=-1" />
 </p>
 
 <div align="center">  
-<a href="https://www.instagram.com/pedroleitepe/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/pedro-leite-pereira-038a40331/?trk=opento_sprofile_topcard" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.instagram.com/pedroleitepe/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white&label=&color=5817fc"></a>
+<a href="https://www.linkedin.com/in/pedro-leite-pereira-038a40331/?trk=opento_sprofile_topcard" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=&color=5817fc"></a>
 </div> 
  
 ### Main skills:
 ![C](https://img.shields.io/badge/-C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![C++](https://img.shields.io/badge/-C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C&labelColor=0D1117)&nbsp;
-![Java](https://img.shields.io/badge/-Java-0D1117?style=for-the-badge&logo=openjdk&labelColor=0D1117)&nbsp;
+![Java](https://img.shields.io/badge/-Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=f89820&labelColor=0D1117)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=0D1117)&nbsp; 
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=0D1117)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
@@ -33,11 +33,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
 ![Windows](https://img.shields.io/badge/-Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
 ![microsoft-office](https://img.shields.io/badge/-microsoft_office-0D1117?style=for-the-badge&logo=microsoft-office&labelColor=0D1117)&nbsp;
-![Obsidian](https://img.shields.io/badge/-Obsidian-0D1117?style=for-the-badge&logo=obsidian&labelColor=0D1117)&nbsp;
- 
-### Other Knowledge:
-![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp; 
+![Obsidian](https://img.shields.io/badge/-Obsidian-0D1117?style=for-the-badge&logo=obsidian&logoColor=A460F0&labelColor=0D1117)&nbsp;
 ![Boostrap](https://img.shields.io/badge/-boostrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)&nbsp;
 ![Figma](https://img.shields.io/badge/-figma-0D1117?style=for-the-badge&logo=figma&labelColor=0D1117)&nbsp;
   
@@ -47,25 +43,31 @@
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=0D1117)&nbsp; 
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=0D1117)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
-![Java](https://img.shields.io/badge/-Java-0D1117?style=for-the-badge&logo=openjdk&labelColor=0D1117)&nbsp;
+![Java](https://img.shields.io/badge/-Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=f89820&labelColor=0D1117)&nbsp;
+![React](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=0D1117)&nbsp;
+![Next](https://img.shields.io/badge/-Next-0D1117?style=for-the-badge&logo=next.js&logoColor=9162C0&labelColor=0D1117)&nbsp;
+![Node](https://img.shields.io/badge/-Node-0D1117?style=for-the-badge&logo=node.js&logoColor=68A063&labelColor=0D1117)&nbsp;
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pedroleitep/pedroleitep/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pedroleitep/pedroleitep/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/pedroleitep/pedroleitep/output/pacman-contribution-graph.svg">
-</picture>
+
+
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pedroleitep/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pedroleitep/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/pedroleitep/output/pacman-contribution-graph.svg">
+</picture> -->
+
 
 
 <div align="center">
-    <img src="https://komarev.com/ghpvc/?username=arturbomtempo-dev&color=67cb57" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=pedroleitep&color=5817fc" alt="Profile views" />
 </div>
 
 
-<div align="center">
+<!-- <div align="center">
 <br><p align="centre"><b>Visitors Count</b></p>  
 <p align="center"><img align="center" src="https://profile-counter.glitch.me/{pedroleitep}/count.svg" /></p> 
-<br></div>
+<br></div> -->
 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5817fc&height=120&section=footer"/>
