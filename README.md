@@ -9,9 +9,9 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=pedroleitep&bg_color=00000&color=5817fc&line=5817fc&point=5817fc&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=pedroleitep&ryo-ma&theme=aura&ryo-ma&rank=-?&ryo-ma&column=-1" />
-</p>
+</p> -->
 
 <div align="center">  
 <a href="https://www.instagram.com/pedroleitepe/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white&label=&color=5817fc"></a>
