@@ -32,7 +32,7 @@
   <img width="100%" src="./achievements.svg" alt="GitHub achievements" />
 </div>
 
-### Main skills:
+### Skills:
 
 **Languages**<br>
 ![C](https://img.shields.io/badge/-C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC&labelColor=0D1117)&nbsp;
