@@ -40,6 +40,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-settings.json
+      - name: Remove duplicated language pie chart
+        run: node .github/scripts/strip-pie.mjs profile-3d-contrib/profile-purple.svg
       - name: Commit 3D graph
         run: |
           git config user.name "github-actions[bot]"
@@ -52,19 +54,27 @@ jobs:
   achievements:
     needs: contrib-3d
     runs-on: ubuntu-latest
-    continue-on-error: true # needs METRICS_TOKEN secret (personal access token)
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v5
         with:
-          filename: metrics.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_timezone: America/Sao_Paulo
-          config_display: large
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Build achievements card
+        run: node .github/scripts/achievements.mjs achievements.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit achievements card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -q --ignore-unmatch metrics.achievements.svg
+          git add achievements.svg
+          git diff --cached --quiet || git commit -m "chore: update achievements card"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
   snake:
     runs-on: ubuntu-latest

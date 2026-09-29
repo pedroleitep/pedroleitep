@@ -1,0 +1,1502 @@
+summary-cards	Set up job	﻿2026-09-29T01:16:40.6668023Z Current runner version: '2.337.0'
+summary-cards	Set up job	2026-09-29T01:16:40.6690787Z ##[group]Runner Image Provisioner
+summary-cards	Set up job	2026-09-29T01:16:40.6691524Z Hosted Compute Agent
+summary-cards	Set up job	2026-09-29T01:16:40.6692192Z Version: 20260828.587
+summary-cards	Set up job	2026-09-29T01:16:40.6692721Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+summary-cards	Set up job	2026-09-29T01:16:40.6693324Z Build Date: 2026-08-28T16:44:25Z
+summary-cards	Set up job	2026-09-29T01:16:40.6693972Z Worker ID: {3c76ebbc-197f-4edc-9e62-394c1c3304a4}
+summary-cards	Set up job	2026-09-29T01:16:40.6694546Z Azure Region: westcentralus
+summary-cards	Set up job	2026-09-29T01:16:40.6695016Z ##[endgroup]
+summary-cards	Set up job	2026-09-29T01:16:40.6696487Z ##[group]Operating System
+summary-cards	Set up job	2026-09-29T01:16:40.6697056Z Ubuntu
+summary-cards	Set up job	2026-09-29T01:16:40.6697580Z 24.04.5
+summary-cards	Set up job	2026-09-29T01:16:40.6698008Z LTS
+summary-cards	Set up job	2026-09-29T01:16:40.6698417Z ##[endgroup]
+summary-cards	Set up job	2026-09-29T01:16:40.6698929Z ##[group]Runner Image
+summary-cards	Set up job	2026-09-29T01:16:40.6699418Z Image: ubuntu-24.04
+summary-cards	Set up job	2026-09-29T01:16:40.6699954Z Version: 20260920.314.1
+summary-cards	Set up job	2026-09-29T01:16:40.6700816Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+summary-cards	Set up job	2026-09-29T01:16:40.6702432Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+summary-cards	Set up job	2026-09-29T01:16:40.6703205Z ##[endgroup]
+summary-cards	Set up job	2026-09-29T01:16:40.6704187Z ##[group]GITHUB_TOKEN Permissions
+summary-cards	Set up job	2026-09-29T01:16:40.6705939Z Contents: write
+summary-cards	Set up job	2026-09-29T01:16:40.6706489Z Metadata: read
+summary-cards	Set up job	2026-09-29T01:16:40.6706981Z ##[endgroup]
+summary-cards	Set up job	2026-09-29T01:16:40.6708780Z Secret source: Actions
+summary-cards	Set up job	2026-09-29T01:16:40.6709632Z Cache mode: write
+summary-cards	Set up job	2026-09-29T01:16:40.6710380Z Prepare workflow directory
+summary-cards	Set up job	2026-09-29T01:16:40.6998910Z Prepare all required actions
+summary-cards	Set up job	2026-09-29T01:16:40.7055661Z Getting action download info
+summary-cards	Set up job	2026-09-29T01:16:41.0350613Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+summary-cards	Set up job	2026-09-29T01:16:41.1490328Z Download action repository 'vn7n24fzkq/github-profile-summary-cards@release' (SHA:09ba4dde3f9b05828cb99553561db3f4ff07703f)
+summary-cards	Set up job	2026-09-29T01:16:42.7996386Z Complete job name: summary-cards
+summary-cards	Run actions/checkout@v5	﻿2026-09-29T01:16:42.8733897Z ##[group]Run actions/checkout@v5
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8735078Z with:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8735795Z   repository: pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8742654Z   token: ***
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8743316Z   ssh-strict: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8743994Z   ssh-user: git
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8744677Z   persist-credentials: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8745434Z   clean: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8746127Z   sparse-checkout-cone-mode: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8746945Z   fetch-depth: 1
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8747615Z   fetch-tags: false
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8748303Z   show-progress: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8748993Z   lfs: false
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8749627Z   submodules: false
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8750341Z   set-safe-directory: true
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8751126Z   allow-unsafe-pr-checkout: false
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.8752404Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9655157Z Syncing repository: pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9658489Z ##[group]Getting Git version info
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9660138Z Working directory is '/home/runner/work/pedroleitep/pedroleitep'
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9662969Z [command]/usr/bin/git version
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9702251Z git version 2.55.0
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9721036Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9736949Z Temporarily overriding HOME='/home/runner/work/_temp/20005acf-92f0-45bf-b570-64a3eaefd3cb' before making global git config changes
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9740562Z Adding repository directory to the temporary git global config as a safe directory
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9744195Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9792781Z Deleting the contents of '/home/runner/work/pedroleitep/pedroleitep'
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9800437Z ##[group]Initializing the repository
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9807696Z [command]/usr/bin/git init /home/runner/work/pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9890595Z hint: Using 'master' as the name for the initial branch. This default branch name
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9893357Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9896003Z hint: to use in all of your new repositories, which will suppress this warning,
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9897813Z hint: call:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9898716Z hint:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9899883Z hint: 	git config --global init.defaultBranch <name>
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9901304Z hint:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9902780Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9904991Z hint: 'development'. The just-created branch can be renamed via this command:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9906769Z hint:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9907666Z hint: 	git branch -m <name>
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9908619Z hint:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9909854Z hint: Disable this message with "git config set advice.defaultBranchName false"
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9912761Z Initialized empty Git repository in /home/runner/work/pedroleitep/pedroleitep/.git/
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9916951Z [command]/usr/bin/git remote add origin https://github.com/pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9952430Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9954229Z ##[group]Disabling automatic garbage collection
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9956132Z [command]/usr/bin/git config --local gc.auto 0
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9988064Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9989718Z ##[group]Setting up auth
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:42.9993682Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0028394Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0458970Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0490906Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0698646Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0733198Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0932802Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0971719Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0973196Z ##[group]Fetching the repository
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.0980612Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8c62db03e4375a0ec5103cd8cc7964ca4a76cabb:refs/remotes/origin/main
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6168579Z From https://github.com/pedroleitep/pedroleitep
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6169513Z  * [new ref]         8c62db03e4375a0ec5103cd8cc7964ca4a76cabb -> origin/main
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6186376Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6187003Z ##[group]Determining the checkout info
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6187617Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6190019Z [command]/usr/bin/git sparse-checkout disable
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6244255Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6278396Z ##[group]Checking out the ref
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6283274Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6497578Z Switched to a new branch 'main'
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6501224Z branch 'main' set up to track 'origin/main'.
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6507480Z ##[endgroup]
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6550028Z [command]/usr/bin/git log -1 --format=%H
+summary-cards	Run actions/checkout@v5	2026-09-29T01:16:43.6576018Z 8c62db03e4375a0ec5103cd8cc7964ca4a76cabb
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	﻿2026-09-29T01:16:43.6806045Z ##[group]Run vn7n24fzkq/github-profile-summary-cards@release
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6806440Z with:
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6806657Z   USERNAME: pedroleitep
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6806881Z   BRANCH_NAME: main
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6807110Z   UTC_OFFSET: -3
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6807326Z   AUTO_PUSH: true
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6807533Z env:
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6809668Z   GITHUB_TOKEN: ***
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.6810090Z ##[endgroup]
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8887361Z Start...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8888261Z Username: pedroleitep
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8888660Z UTC offset: -3
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8888995Z Excluded languages: 
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8889325Z Excluded repos: 
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8889817Z You have set automatically push commits
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8890483Z Theme: all; Animation: none; Duration: (default); Name: (default)
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8890992Z Remove old cards...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8929089Z (node:2118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:43.8930745Z (Use `node --trace-deprecation ...` to show where the warning was created)
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:44.2380841Z Detected owner type: User
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:44.2382382Z Creating ProfileDetailsCard...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:45.8906231Z Creating ReposPerLanguageCard...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:46.7358172Z Creating CommitsPerLanguageCard...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:47.9225481Z Creating StatsCard...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:49.1283444Z Creating ProductiveTimeCard...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:52.3568049Z Creating preview markdown...
+summary-cards	Run vn7n24fzkq/github-profile-summary-cards@release	2026-09-29T01:16:52.3595184Z Commit file...
+summary-cards	Post Run actions/checkout@v5	﻿2026-09-29T01:16:53.7195721Z Post job cleanup.
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.7939905Z [command]/usr/bin/git version
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.7979755Z git version 2.55.0
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8008278Z Copying '/home/runner/.gitconfig' to '/home/runner/work/_temp/93ff8eb0-bf75-480f-a452-821e99a56b56/.gitconfig'
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8017932Z Temporarily overriding HOME='/home/runner/work/_temp/93ff8eb0-bf75-480f-a452-821e99a56b56' before making global git config changes
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8019337Z Adding repository directory to the temporary git global config as a safe directory
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8022118Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pedroleitep/pedroleitep
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8063235Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8105012Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8326858Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8352874Z http.https://github.com/.extraheader
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8365447Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8398428Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8626072Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+summary-cards	Post Run actions/checkout@v5	2026-09-29T01:16:53.8663043Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+summary-cards	Complete job	﻿2026-09-29T01:16:53.9016526Z Cleaning up orphan processes
+snake	Set up job	﻿2026-09-29T01:16:41.0467918Z Current runner version: '2.337.0'
+snake	Set up job	2026-09-29T01:16:41.0495086Z ##[group]Runner Image Provisioner
+snake	Set up job	2026-09-29T01:16:41.0496294Z Hosted Compute Agent
+snake	Set up job	2026-09-29T01:16:41.0497010Z Version: 20260828.587
+snake	Set up job	2026-09-29T01:16:41.0497677Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+snake	Set up job	2026-09-29T01:16:41.0498427Z Build Date: 2026-08-28T16:44:25Z
+snake	Set up job	2026-09-29T01:16:41.0499175Z Worker ID: {a47332e3-42b1-4b9a-aeff-f1eb9f23ed28}
+snake	Set up job	2026-09-29T01:16:41.0499894Z Azure Region: westus2
+snake	Set up job	2026-09-29T01:16:41.0500443Z ##[endgroup]
+snake	Set up job	2026-09-29T01:16:41.0502457Z ##[group]Operating System
+snake	Set up job	2026-09-29T01:16:41.0503141Z Ubuntu
+snake	Set up job	2026-09-29T01:16:41.0503736Z 24.04.5
+snake	Set up job	2026-09-29T01:16:41.0504314Z LTS
+snake	Set up job	2026-09-29T01:16:41.0504846Z ##[endgroup]
+snake	Set up job	2026-09-29T01:16:41.0505517Z ##[group]Runner Image
+snake	Set up job	2026-09-29T01:16:41.0506410Z Image: ubuntu-24.04
+snake	Set up job	2026-09-29T01:16:41.0507045Z Version: 20260920.314.1
+snake	Set up job	2026-09-29T01:16:41.0508156Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+snake	Set up job	2026-09-29T01:16:41.0510117Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+snake	Set up job	2026-09-29T01:16:41.0511115Z ##[endgroup]
+snake	Set up job	2026-09-29T01:16:41.0512294Z ##[group]GITHUB_TOKEN Permissions
+snake	Set up job	2026-09-29T01:16:41.0514479Z Contents: write
+snake	Set up job	2026-09-29T01:16:41.0515191Z Metadata: read
+snake	Set up job	2026-09-29T01:16:41.0516018Z ##[endgroup]
+snake	Set up job	2026-09-29T01:16:41.0518174Z Secret source: Actions
+snake	Set up job	2026-09-29T01:16:41.0519283Z Cache mode: write
+snake	Set up job	2026-09-29T01:16:41.0520262Z Prepare workflow directory
+snake	Set up job	2026-09-29T01:16:41.0858910Z Prepare all required actions
+snake	Set up job	2026-09-29T01:16:41.0931925Z Getting action download info
+snake	Set up job	2026-09-29T01:16:41.4930294Z Download action repository 'Platane/snk@v3' (SHA:d8f6715049803e982ee5ff501b6b9b7d5deeb09b)
+snake	Set up job	2026-09-29T01:16:41.7984847Z Download action repository 'crazy-max/ghaction-github-pages@v4' (SHA:df5cc2bfa78282ded844b354faee141f06b41865)
+snake	Set up job	2026-09-29T01:16:42.1235333Z Complete job name: snake
+snake	Run Platane/snk/svg-only@v3	﻿2026-09-29T01:16:42.1978051Z ##[group]Run Platane/snk/svg-only@v3
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.1979406Z with:
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.1979908Z   github_user_name: pedroleitep
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.1981459Z   outputs: dist/github-snake.svg?color_snake=#5817fc&color_dots=#ebedf0,#d4c5fe,#a78bfa,#7c3aed,#5817fc
+snake	Run Platane/snk/svg-only@v3	dist/github-snake-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#161b22,#2e1a6b,#3f22a8,#5817fc,#a78bfa
+snake	Run Platane/snk/svg-only@v3	
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.1987130Z   github_token: ***
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.1987965Z ##[endgroup]
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.2344980Z 🎣 fetching user contribution from github
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:42.8204933Z 📡 computing best route
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:50.2077948Z 🖌 creating svg (outputs[0])
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:50.2090129Z 🖌 creating svg (outputs[1])
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:50.2201100Z 💾 writing to dist/github-snake.svg
+snake	Run Platane/snk/svg-only@v3	2026-09-29T01:16:50.2203380Z 💾 writing to dist/github-snake-dark.svg
+snake	Run crazy-max/ghaction-github-pages@v4	﻿2026-09-29T01:16:50.2563275Z ##[group]Run crazy-max/ghaction-github-pages@v4
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2563761Z with:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2564045Z   target_branch: output
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2564343Z   build_dir: dist
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2564640Z   domain: github.com
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2564907Z   keep_history: false
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2565181Z   allow_empty_commit: true
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2565480Z   absolute_build_dir: false
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2566119Z   follow_symlinks: false
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2566409Z   jekyll: true
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2566652Z   dry_run: false
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2566895Z   verbose: false
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2567134Z env:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2570258Z   GITHUB_TOKEN: ***
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.2570544Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5849395Z ##[group]Initializing local git repo
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5864244Z [command]/usr/bin/git init .
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5987355Z hint: Using 'master' as the name for the initial branch. This default branch name
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5988374Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5989441Z hint: to use in all of your new repositories, which will suppress this warning,
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5990159Z hint: call:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5990814Z hint:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5991293Z hint: 	git config --global init.defaultBranch <name>
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5991831Z hint:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5992325Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5993227Z hint: 'development'. The just-created branch can be renamed via this command:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5993953Z hint:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5994341Z hint: 	git branch -m <name>
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5994798Z hint:
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5995402Z hint: Disable this message with "git config set advice.defaultBranchName false"
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.5996713Z Initialized empty Git repository in /tmp/github-pages-PFkiEW/.git/
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6013424Z [command]/usr/bin/git checkout --orphan output
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6054134Z Switched to a new branch 'output'
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6061986Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6063103Z ##[group]Copying /home/runner/work/pedroleitep/pedroleitep/dist to /tmp/github-pages-PFkiEW
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6093188Z ...3 file(s) copied.
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6093810Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6160350Z ##[group]Configuring git committer
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6172713Z [command]/usr/bin/git config user.name GitHub
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6220957Z [command]/usr/bin/git config user.email noreply@github.com
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6248029Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6287331Z ##[group]Updating index of working tree
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6300387Z [command]/usr/bin/git add --all .
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6351237Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6352511Z ##[group]Committing changes
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6368428Z [command]/usr/bin/git commit --allow-empty --author github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> --message Deploy to GitHub pages
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6502500Z [output (root-commit) eaf345b] Deploy to GitHub pages
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6503693Z  Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6504612Z  2 files changed, 2 insertions(+)
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6505015Z  create mode 100644 github-snake-dark.svg
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6560298Z  create mode 100644 github-snake.svg
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6560935Z commit eaf345b6fba41c76bf7c24cf808b08b7d7f125cb
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6561780Z Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6562528Z Date:   Tue Sep 29 01:16:50 2026 +0000
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6562831Z 
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6563006Z     Deploy to GitHub pages
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6563269Z 
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6563456Z  github-snake-dark.svg | 1 +
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6563888Z  github-snake.svg      | 1 +
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6564245Z  2 files changed, 2 insertions(+)
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6564848Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6565413Z ##[group]Pushing dist directory to output branch on pedroleitep/pedroleitep repo
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:50.6578715Z [command]/usr/bin/git push --force ***github.com/pedroleitep/pedroleitep.git output
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:51.8991239Z To https://github.com/pedroleitep/pedroleitep.git
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:51.8992248Z  + 8bcf8c5...eaf345b output -> output (forced update)
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:51.9029991Z ##[endgroup]
+snake	Run crazy-max/ghaction-github-pages@v4	2026-09-29T01:16:51.9030533Z Content of dist has been deployed to GitHub Pages!
+snake	Complete job	﻿2026-09-29T01:16:51.9169123Z Cleaning up orphan processes
+snake	Complete job	2026-09-29T01:16:51.9450027Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: crazy-max/ghaction-github-pages@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+contrib-3d	Set up job	﻿2026-09-29T01:17:00.0729582Z Current runner version: '2.337.0'
+contrib-3d	Set up job	2026-09-29T01:17:00.0757719Z ##[group]Runner Image Provisioner
+contrib-3d	Set up job	2026-09-29T01:17:00.0758591Z Hosted Compute Agent
+contrib-3d	Set up job	2026-09-29T01:17:00.0759316Z Version: 20260828.587
+contrib-3d	Set up job	2026-09-29T01:17:00.0760018Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+contrib-3d	Set up job	2026-09-29T01:17:00.0760823Z Build Date: 2026-08-28T16:44:25Z
+contrib-3d	Set up job	2026-09-29T01:17:00.0761613Z Worker ID: {bff61b1e-60ba-4a8d-83df-1685c31dac23}
+contrib-3d	Set up job	2026-09-29T01:17:00.0762345Z Azure Region: centralus
+contrib-3d	Set up job	2026-09-29T01:17:00.0763092Z ##[endgroup]
+contrib-3d	Set up job	2026-09-29T01:17:00.0764513Z ##[group]Operating System
+contrib-3d	Set up job	2026-09-29T01:17:00.0765275Z Ubuntu
+contrib-3d	Set up job	2026-09-29T01:17:00.0766230Z 24.04.5
+contrib-3d	Set up job	2026-09-29T01:17:00.0766764Z LTS
+contrib-3d	Set up job	2026-09-29T01:17:00.0767397Z ##[endgroup]
+contrib-3d	Set up job	2026-09-29T01:17:00.0767988Z ##[group]Runner Image
+contrib-3d	Set up job	2026-09-29T01:17:00.0768638Z Image: ubuntu-24.04
+contrib-3d	Set up job	2026-09-29T01:17:00.0769287Z Version: 20260920.314.1
+contrib-3d	Set up job	2026-09-29T01:17:00.0770423Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+contrib-3d	Set up job	2026-09-29T01:17:00.0772313Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+contrib-3d	Set up job	2026-09-29T01:17:00.0773345Z ##[endgroup]
+contrib-3d	Set up job	2026-09-29T01:17:00.0774564Z ##[group]GITHUB_TOKEN Permissions
+contrib-3d	Set up job	2026-09-29T01:17:00.0777213Z Contents: write
+contrib-3d	Set up job	2026-09-29T01:17:00.0777905Z Metadata: read
+contrib-3d	Set up job	2026-09-29T01:17:00.0778503Z ##[endgroup]
+contrib-3d	Set up job	2026-09-29T01:17:00.0780798Z Secret source: Actions
+contrib-3d	Set up job	2026-09-29T01:17:00.0781811Z Cache mode: write
+contrib-3d	Set up job	2026-09-29T01:17:00.0783005Z Prepare workflow directory
+contrib-3d	Set up job	2026-09-29T01:17:00.1126376Z Prepare all required actions
+contrib-3d	Set up job	2026-09-29T01:17:00.1177739Z Getting action download info
+contrib-3d	Set up job	2026-09-29T01:17:00.3880604Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+contrib-3d	Set up job	2026-09-29T01:17:00.4840637Z Download action repository 'yoshi389111/github-profile-3d-contrib@latest' (SHA:7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39)
+contrib-3d	Set up job	2026-09-29T01:17:01.0498361Z Complete job name: contrib-3d
+contrib-3d	Run actions/checkout@v5	﻿2026-09-29T01:17:01.1306137Z ##[group]Run actions/checkout@v5
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1307236Z with:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1307722Z   ref: main
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1308234Z   repository: pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1312628Z   token: ***
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1313122Z   ssh-strict: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1313631Z   ssh-user: git
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1314136Z   persist-credentials: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1314682Z   clean: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1315177Z   sparse-checkout-cone-mode: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1315937Z   fetch-depth: 1
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1316436Z   fetch-tags: false
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1316962Z   show-progress: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1317489Z   lfs: false
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1318022Z   submodules: false
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1318543Z   set-safe-directory: true
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1319128Z   allow-unsafe-pr-checkout: false
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.1319994Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2367233Z Syncing repository: pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2369495Z ##[group]Getting Git version info
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2370446Z Working directory is '/home/runner/work/pedroleitep/pedroleitep'
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2371609Z [command]/usr/bin/git version
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2451916Z git version 2.55.0
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2471719Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2487358Z Temporarily overriding HOME='/home/runner/work/_temp/1b11e184-5de6-43ac-8aed-75ba1eaa6e3f' before making global git config changes
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2490041Z Adding repository directory to the temporary git global config as a safe directory
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2492697Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2541262Z Deleting the contents of '/home/runner/work/pedroleitep/pedroleitep'
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2549975Z ##[group]Initializing the repository
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2552735Z [command]/usr/bin/git init /home/runner/work/pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2624812Z hint: Using 'master' as the name for the initial branch. This default branch name
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2627157Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2630055Z hint: to use in all of your new repositories, which will suppress this warning,
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2633177Z hint: call:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2634174Z hint:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2635343Z hint: 	git config --global init.defaultBranch <name>
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2636950Z hint:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2638969Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2640829Z hint: 'development'. The just-created branch can be renamed via this command:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2641872Z hint:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2642633Z hint: 	git branch -m <name>
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2643720Z hint:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2645285Z hint: Disable this message with "git config set advice.defaultBranchName false"
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2647688Z Initialized empty Git repository in /home/runner/work/pedroleitep/pedroleitep/.git/
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2651507Z [command]/usr/bin/git remote add origin https://github.com/pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2683830Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2686083Z ##[group]Disabling automatic garbage collection
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2687790Z [command]/usr/bin/git config --local gc.auto 0
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2721253Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2722835Z ##[group]Setting up auth
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2726117Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.2762154Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3111737Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3158668Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3423292Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3462904Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3706376Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3750294Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3751278Z ##[group]Fetching the repository
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.3759952Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8811099Z From https://github.com/pedroleitep/pedroleitep
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8813493Z  * [new branch]      main       -> origin/main
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8819066Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8821217Z ##[group]Determining the checkout info
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8827453Z [command]/usr/bin/git branch --list --remote origin/main
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8858700Z   origin/main
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8863325Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8869598Z [command]/usr/bin/git sparse-checkout disable
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8929388Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8964485Z ##[group]Checking out the ref
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.8967465Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.9184151Z Switched to a new branch 'main'
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.9200398Z branch 'main' set up to track 'origin/main'.
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.9207907Z ##[endgroup]
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.9254284Z [command]/usr/bin/git log -1 --format=%H
+contrib-3d	Run actions/checkout@v5	2026-09-29T01:17:01.9284527Z de23723ae208b45d016218586c7549712beb4fd6
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	﻿2026-09-29T01:17:01.9569949Z ##[group]Run yoshi389111/github-profile-3d-contrib@latest
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	2026-09-29T01:17:01.9571493Z env:
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	2026-09-29T01:17:01.9581816Z   GITHUB_TOKEN: ***
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	2026-09-29T01:17:01.9582877Z   USERNAME: pedroleitep
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	2026-09-29T01:17:01.9584085Z   SETTING_JSON: .github/profile-3d-settings.json
+contrib-3d	Run yoshi389111/github-profile-3d-contrib@latest	2026-09-29T01:17:01.9586090Z ##[endgroup]
+contrib-3d	Commit 3D graph	﻿2026-09-29T01:17:03.4140768Z ##[group]Run git config user.name "github-actions[bot]"
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4141366Z ^[[36;1mgit config user.name "github-actions[bot]"^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4141913Z ^[[36;1mgit config user.email "41898282+github-actions[bot]@users.noreply.github.com"^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4142447Z ^[[36;1mgit add -A profile-3d-contrib^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4142948Z ^[[36;1mgit diff --cached --quiet || git commit -m "chore: update 3D contribution graph"^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4143445Z ^[[36;1mgit pull --rebase origin main^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4143785Z ^[[36;1mgit push origin HEAD:main^[[0m
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4426408Z shell: /usr/bin/bash -e {0}
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.4426825Z ##[endgroup]
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.7326979Z From https://github.com/pedroleitep/pedroleitep
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.7327729Z  * branch            main       -> FETCH_HEAD
+contrib-3d	Commit 3D graph	2026-09-29T01:17:03.7383398Z Already up to date.
+contrib-3d	Commit 3D graph	2026-09-29T01:17:04.0099630Z Everything up-to-date
+contrib-3d	Post Run actions/checkout@v5	﻿2026-09-29T01:17:04.0319812Z Post job cleanup.
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1166041Z [command]/usr/bin/git version
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1210756Z git version 2.55.0
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1251942Z Temporarily overriding HOME='/home/runner/work/_temp/c3ba63e2-a176-4789-a5ea-214aad77dc45' before making global git config changes
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1252940Z Adding repository directory to the temporary git global config as a safe directory
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1258178Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pedroleitep/pedroleitep
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1298232Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1334687Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1603454Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1646936Z http.https://github.com/.extraheader
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1658790Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1697058Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.1964303Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+contrib-3d	Post Run actions/checkout@v5	2026-09-29T01:17:04.2003979Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+contrib-3d	Complete job	﻿2026-09-29T01:17:04.2448190Z Cleaning up orphan processes
+achievements	Set up job	﻿2026-09-29T01:17:10.9456405Z Current runner version: '2.337.0'
+achievements	Set up job	2026-09-29T01:17:10.9482576Z ##[group]Runner Image Provisioner
+achievements	Set up job	2026-09-29T01:17:10.9483736Z Hosted Compute Agent
+achievements	Set up job	2026-09-29T01:17:10.9484358Z Version: 20260828.587
+achievements	Set up job	2026-09-29T01:17:10.9484975Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+achievements	Set up job	2026-09-29T01:17:10.9485822Z Build Date: 2026-08-28T16:44:25Z
+achievements	Set up job	2026-09-29T01:17:10.9486551Z Worker ID: {8dfcdd26-4ceb-4759-9195-432160637be3}
+achievements	Set up job	2026-09-29T01:17:10.9487322Z Azure Region: westcentralus
+achievements	Set up job	2026-09-29T01:17:10.9487932Z ##[endgroup]
+achievements	Set up job	2026-09-29T01:17:10.9489563Z ##[group]Operating System
+achievements	Set up job	2026-09-29T01:17:10.9490378Z Ubuntu
+achievements	Set up job	2026-09-29T01:17:10.9490899Z 24.04.5
+achievements	Set up job	2026-09-29T01:17:10.9491494Z LTS
+achievements	Set up job	2026-09-29T01:17:10.9492003Z ##[endgroup]
+achievements	Set up job	2026-09-29T01:17:10.9492537Z ##[group]Runner Image
+achievements	Set up job	2026-09-29T01:17:10.9493232Z Image: ubuntu-24.04
+achievements	Set up job	2026-09-29T01:17:10.9494014Z Version: 20260920.314.1
+achievements	Set up job	2026-09-29T01:17:10.9495162Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+achievements	Set up job	2026-09-29T01:17:10.9496912Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+achievements	Set up job	2026-09-29T01:17:10.9497984Z ##[endgroup]
+achievements	Set up job	2026-09-29T01:17:10.9499077Z ##[group]GITHUB_TOKEN Permissions
+achievements	Set up job	2026-09-29T01:17:10.9501247Z Contents: write
+achievements	Set up job	2026-09-29T01:17:10.9501884Z Metadata: read
+achievements	Set up job	2026-09-29T01:17:10.9502560Z ##[endgroup]
+achievements	Set up job	2026-09-29T01:17:10.9504931Z Secret source: Actions
+achievements	Set up job	2026-09-29T01:17:10.9506406Z Cache mode: write
+achievements	Set up job	2026-09-29T01:17:10.9507282Z Prepare workflow directory
+achievements	Set up job	2026-09-29T01:17:10.9906238Z Prepare all required actions
+achievements	Set up job	2026-09-29T01:17:10.9954163Z Getting action download info
+achievements	Set up job	2026-09-29T01:17:11.3165495Z Download action repository 'lowlighter/metrics@latest' (SHA:65836723097537a54cd8eb90f61839426b4266b6)
+achievements	Set up job	2026-09-29T01:17:12.7845916Z Complete job name: achievements
+achievements	Run lowlighter/metrics@latest	﻿2026-09-29T01:17:13.0042660Z ##[group]Run lowlighter/metrics@latest
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0044735Z with:
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0045314Z   filename: metrics.achievements.svg
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0046236Z   token: ***
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0046760Z   config_timezone: America/Sao_Paulo
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0047372Z   config_display: large
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0047900Z   plugin_achievements: yes
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0048458Z   plugin_achievements_display: compact
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0049071Z   plugin_achievements_threshold: C
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0049683Z   plugin_achievements_secrets: yes
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0050546Z   base_indepth: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0051530Z   base_hireable: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0052505Z   base_skip: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0053666Z   repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0054725Z   repositories_batch: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0055780Z   repositories_forks: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0056863Z   repositories_affiliations: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0058101Z   repositories_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0058854Z   users_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0059430Z   commits_authoring: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0060017Z   user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0060526Z   repo: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0065165Z   committer_token: ***
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0065741Z   committer_branch: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0066349Z   committer_message: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0066952Z   committer_gist: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0067522Z   markdown: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0068082Z   markdown_cache: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0068677Z   output_action: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0069264Z   output_condition: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0069862Z   optimize: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0070458Z   setup_community_templates: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0071107Z   template: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0071790Z   query: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0072334Z   extras_css: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0072915Z   extras_js: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0073725Z   github_api_rest: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0074648Z   github_api_graphql: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0075475Z   config_order: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0076093Z   config_twemoji: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0076682Z   config_gemoji: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0077273Z   config_octicon: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0078025Z   config_animations: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0078804Z   config_base64: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0079840Z   config_padding: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0080856Z   config_output: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0081833Z   retries: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0082761Z   retries_delay: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0084039Z   retries_output_action: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0085211Z   retries_delay_output_action: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0086416Z   clean_workflows: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0087398Z   delay: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0087963Z   quota_required_rest: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0088600Z   quota_required_graphql: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0089238Z   quota_required_search: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0089857Z   notice_releases: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0090426Z   use_prebuilt_image: yes
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0090970Z   plugins_errors_fatal: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0091568Z   debug: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0092085Z   verify: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0092609Z   debug_flags: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0093178Z   debug_print: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0094045Z   dryrun: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0094614Z   experimental_features: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0095235Z   use_mocked_data: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0095829Z   plugin_isocalendar: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0096469Z   plugin_isocalendar_duration: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0097409Z   plugin_languages: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0098027Z   plugin_languages_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0098734Z   plugin_languages_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0099397Z   plugin_languages_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0100045Z   plugin_languages_threshold: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0100711Z   plugin_languages_other: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0101355Z   plugin_languages_colors: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0102000Z   plugin_languages_aliases: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0102657Z   plugin_languages_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0103611Z   plugin_languages_details: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0104320Z   plugin_languages_indepth: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0105023Z   plugin_languages_indepth_custom: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0106139Z   plugin_languages_analysis_timeout: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0107620Z   plugin_languages_analysis_timeout_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0109099Z   plugin_languages_categories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0110365Z   plugin_languages_recent_categories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0111654Z   plugin_languages_recent_load: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0112896Z   plugin_languages_recent_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0114261Z   plugin_stargazers: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0115297Z   plugin_stargazers_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0115948Z   plugin_stargazers_charts: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0116621Z   plugin_stargazers_charts_type: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0117313Z   plugin_stargazers_worldmap: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0117996Z   plugin_stargazers_worldmap_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0118730Z   plugin_stargazers_worldmap_sample: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0119405Z   plugin_lines: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0119980Z   plugin_lines_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0120638Z   plugin_lines_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0121321Z   plugin_lines_repositories_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0122223Z   plugin_lines_history_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0122929Z   plugin_lines_delay: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0123799Z   plugin_topics: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0124405Z   plugin_topics_mode: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0125008Z   plugin_topics_sort: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0125612Z   plugin_topics_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0126247Z   plugin_stars: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0126811Z   plugin_stars_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0127411Z   plugin_licenses: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0128014Z   plugin_licenses_setup: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0128640Z   plugin_licenses_ratio: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0129258Z   plugin_licenses_legal: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0129865Z   plugin_habits: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0130449Z   plugin_habits_from: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0131078Z   plugin_habits_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0131695Z   plugin_habits_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0132298Z   plugin_habits_facts: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0132900Z   plugin_habits_charts: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0133765Z   plugin_habits_charts_type: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0134418Z   plugin_habits_trim: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0135060Z   plugin_habits_languages_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0135789Z   plugin_habits_languages_threshold: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0136891Z   plugin_contributors: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0138011Z   plugin_contributors_base: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0139164Z   plugin_contributors_head: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0140336Z   plugin_contributors_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0141594Z   plugin_contributors_contributions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0143100Z   plugin_contributors_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0144502Z   plugin_contributors_categories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0145210Z   plugin_followup: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0145813Z   plugin_followup_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0146493Z   plugin_followup_indepth: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0147155Z   plugin_followup_archived: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0147792Z   plugin_reactions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0148394Z   plugin_reactions_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0149052Z   plugin_reactions_limit_issues: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0149770Z   plugin_reactions_limit_discussions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0150591Z   plugin_reactions_limit_discussions_comments: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0151367Z   plugin_reactions_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0152011Z   plugin_reactions_display: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0152655Z   plugin_reactions_details: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0153548Z   plugin_reactions_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0154253Z   plugin_people: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0154846Z   plugin_people_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0155480Z   plugin_people_identicons: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0156144Z   plugin_people_identicons_hide: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0156812Z   plugin_people_size: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0157417Z   plugin_people_types: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0158037Z   plugin_people_thanks: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0158682Z   plugin_people_sponsors_custom: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0159377Z   plugin_people_shuffle: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0160001Z   plugin_sponsorships: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0160648Z   plugin_sponsorships_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0161324Z   plugin_sponsorships_size: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0161964Z   plugin_sponsors: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0162941Z   plugin_sponsors_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0164625Z   plugin_sponsors_past: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0165782Z   plugin_sponsors_size: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0167142Z   plugin_sponsors_title: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0168242Z   plugin_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0169410Z   plugin_repositories_featured: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0170642Z   plugin_repositories_pinned: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0171422Z   plugin_repositories_starred: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0172138Z   plugin_repositories_random: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0172812Z   plugin_repositories_order: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0173739Z   plugin_repositories_forks: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0174461Z   plugin_repositories_affiliations: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0175148Z   plugin_discussions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0175792Z   plugin_discussions_categories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0176536Z   plugin_discussions_categories_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0177230Z   plugin_starlists: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0177841Z   plugin_starlists_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0178540Z   plugin_starlists_limit_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0179264Z   plugin_starlists_languages: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0179957Z   plugin_starlists_limit_languages: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0180694Z   plugin_starlists_languages_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0181438Z   plugin_starlists_languages_aliases: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0182209Z   plugin_starlists_shuffle_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0182934Z   plugin_starlists_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0183809Z   plugin_starlists_only: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0184447Z   plugin_calendar: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0185040Z   plugin_calendar_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0185683Z   plugin_achievements_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0186537Z   plugin_achievements_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0187202Z   plugin_achievements_only: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0187836Z   plugin_notable: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0188422Z   plugin_notable_filter: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0189045Z   plugin_notable_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0189694Z   plugin_notable_from: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0190335Z   plugin_notable_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0190993Z   plugin_notable_indepth: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0191618Z   plugin_notable_types: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0192232Z   plugin_notable_self: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0192846Z   plugin_activity: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0193815Z   plugin_activity_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0194506Z   plugin_activity_load: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0195155Z   plugin_activity_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0195793Z   plugin_activity_visibility: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0196469Z   plugin_activity_timestamps: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0197147Z   plugin_activity_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0197799Z   plugin_activity_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0198437Z   plugin_activity_filter: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0199055Z   plugin_traffic: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0199645Z   plugin_traffic_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0200259Z   plugin_code: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0200818Z   plugin_code_lines: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0201425Z   plugin_code_load: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0202008Z   plugin_code_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0202607Z   plugin_code_visibility: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0203235Z   plugin_code_skipped: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0204127Z   plugin_code_languages: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0204745Z   plugin_gists: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0205340Z   plugin_projects: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0205940Z   plugin_projects_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0206594Z   plugin_projects_repositories: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0207466Z   plugin_projects_descriptions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0208132Z   plugin_introduction: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0208761Z   plugin_introduction_title: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0209401Z   plugin_skyline: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0209987Z   plugin_skyline_year: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0210604Z   plugin_skyline_frames: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0211224Z   plugin_skyline_quality: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0211874Z   plugin_skyline_compatibility: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0212539Z   plugin_skyline_settings: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0213168Z   plugin_support: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0214008Z   plugin_pagespeed: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0214628Z   plugin_pagespeed_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0215291Z   plugin_pagespeed_url: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0215935Z   plugin_pagespeed_detailed: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0216632Z   plugin_pagespeed_screenshot: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0217298Z   plugin_pagespeed_pwa: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0217918Z   plugin_tweets: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0218502Z   plugin_tweets_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0219119Z   plugin_tweets_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0219741Z   plugin_tweets_attachments: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0220407Z   plugin_tweets_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0221008Z   plugin_stackoverflow: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0221638Z   plugin_stackoverflow_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0222314Z   plugin_stackoverflow_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0222998Z   plugin_stackoverflow_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0223908Z   plugin_stackoverflow_lines: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0224626Z   plugin_stackoverflow_lines_snippet: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0225473Z   plugin_anilist: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0226102Z   plugin_anilist_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0226746Z   plugin_anilist_medias: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0227381Z   plugin_anilist_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0228010Z   plugin_anilist_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0228666Z   plugin_anilist_limit_characters: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0229352Z   plugin_anilist_shuffle: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0229971Z   plugin_music: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0230553Z   plugin_music_provider: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0231174Z   plugin_music_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0231796Z   plugin_music_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0232400Z   plugin_music_mode: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0232999Z   plugin_music_playlist: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0233966Z   plugin_music_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0234668Z   plugin_music_played_at: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0235316Z   plugin_music_time_range: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0235955Z   plugin_music_top_type: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0236576Z   plugin_posts: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0237139Z   plugin_posts_source: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0237740Z   plugin_posts_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0238366Z   plugin_posts_descriptions: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0239011Z   plugin_posts_covers: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0239623Z   plugin_posts_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0240215Z   plugin_rss: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0240770Z   plugin_rss_source: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0241360Z   plugin_rss_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0241956Z   plugin_wakatime: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0242545Z   plugin_wakatime_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0243167Z   plugin_wakatime_url: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0244069Z   plugin_wakatime_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0244709Z   plugin_wakatime_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0245346Z   plugin_wakatime_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0246264Z   plugin_wakatime_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0246956Z   plugin_wakatime_languages_other: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0247692Z   plugin_wakatime_languages_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0248469Z   plugin_wakatime_repositories_visibility: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0249195Z   plugin_leetcode: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0249790Z   plugin_leetcode_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0250411Z   plugin_leetcode_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0251081Z   plugin_leetcode_limit_skills: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0251776Z   plugin_leetcode_ignored_skills: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0252474Z   plugin_leetcode_limit_recent: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0253119Z   plugin_steam: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0254174Z   plugin_steam_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0254828Z   plugin_steam_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0255510Z   plugin_steam_games_ignored: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0256198Z   plugin_steam_games_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0256886Z   plugin_steam_recent_games_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0257634Z   plugin_steam_achievements_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0258369Z   plugin_steam_playtime_threshold: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0259054Z   plugin_16personalities: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0259726Z   plugin_16personalities_url: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0260414Z   plugin_16personalities_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0261125Z   plugin_16personalities_scores: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0261789Z   plugin_chess: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0262372Z   plugin_chess_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0262978Z   plugin_chess_user: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0263936Z   plugin_chess_platform: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0264577Z   plugin_chess_animation: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0265201Z   plugin_fortune: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0265811Z   plugin_nightscout: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0266433Z   plugin_nightscout_url: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0267101Z   plugin_nightscout_datapoints: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0267787Z   plugin_nightscout_lowalert: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0268464Z   plugin_nightscout_highalert: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0269171Z   plugin_nightscout_urgentlowalert: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0269943Z   plugin_nightscout_urgenthighalert: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0270630Z   plugin_poopmap: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0271219Z   plugin_poopmap_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0271839Z   plugin_poopmap_days: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0272446Z   plugin_screenshot: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0273057Z   plugin_screenshot_title: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0273877Z   plugin_screenshot_url: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0274510Z   plugin_screenshot_selector: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0275174Z   plugin_screenshot_mode: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0275825Z   plugin_screenshot_viewport: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0276478Z   plugin_screenshot_wait: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0277129Z   plugin_screenshot_background: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0277791Z   plugin_splatoon: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0278381Z   plugin_splatoon_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0279018Z   plugin_splatoon_sections: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0279681Z   plugin_splatoon_versus_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0280365Z   plugin_splatoon_salmon_limit: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0281042Z   plugin_splatoon_statink: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0281714Z   plugin_splatoon_statink_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0282391Z   plugin_splatoon_source: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0283012Z   plugin_stock: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0283740Z   plugin_stock_token: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0284503Z   plugin_stock_symbol: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0285120Z   plugin_stock_duration: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0285746Z   plugin_stock_interval: <default-value>
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0286816Z ##[endgroup]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0404061Z ##[start-action display=Run # Check runner compatibility;id=__lowlighter_metrics.__run]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0455072Z ##[group]Run # Check runner compatibility
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0455967Z ^[[36;1m# Check runner compatibility^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0456665Z ^[[36;1mecho "::group::Metrics docker image setup"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0457526Z ^[[36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0458334Z ^[[36;1mcd $METRICS_ACTION_PATH^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0458940Z ^[[36;1mfor DEPENDENCY in docker jq; do^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0459626Z ^[[36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0460701Z ^[[36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0461718Z ^[[36;1m    MISSING_DEPENDENCIES=1^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0462283Z ^[[36;1m  fi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0462733Z ^[[36;1mdone^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0463256Z ^[[36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0464221Z ^[[36;1m  echo "Runner compatibility: missing dependencies"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0464931Z ^[[36;1m  exit 1^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0465390Z ^[[36;1melse^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0465911Z ^[[36;1m  echo "Runner compatibility: compatible"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0466552Z ^[[36;1mfi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0466992Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0467600Z ^[[36;1m# Create environment file from inputs and GitHub variables^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0468359Z ^[[36;1mtouch .env^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0469296Z ^[[36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0470542Z ^[[36;1m  echo $INPUT >> .env^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0471083Z ^[[36;1mdone^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0471643Z ^[[36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0472369Z ^[[36;1mecho "Environment variables: loaded"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0472981Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0473611Z ^[[36;1m# Renders output folder^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0474226Z ^[[36;1mMETRICS_RENDERS="/metrics_renders"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0474883Z ^[[36;1msudo mkdir -p $METRICS_RENDERS^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0475578Z ^[[36;1mecho "Renders output folder: $METRICS_RENDERS"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0476244Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0476779Z ^[[36;1m# Source repository (picked from action name)^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0477797Z ^[[36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0478748Z ^[[36;1mecho "Source: $METRICS_SOURCE"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0479337Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0479847Z ^[[36;1m# Version (picked from package.json)^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0480706Z ^[[36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0481555Z ^[[36;1mecho "Version: $METRICS_VERSION"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0482156Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0482691Z ^[[36;1m# Image tag (extracted from version or from env)^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0484477Z ^[[36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0486076Z ^[[36;1mecho "Image tag: $METRICS_TAG"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0487108Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0487898Z ^[[36;1m# Image name^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0488850Z ^[[36;1m# Official action^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0490016Z ^[[36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0490803Z ^[[36;1m  # Use registry with pre-built images^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0492068Z ^[[36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0492949Z ^[[36;1m    # Is released version^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0494042Z ^[[36;1m    set +e^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0494810Z ^[[36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0495878Z ^[[36;1m    set -e^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0496510Z ^[[36;1m    echo "Is released version: $METRICS_IS_RELEASED"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0497278Z ^[[36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0497987Z ^[[36;1m      METRICS_TAG="$METRICS_TAG-beta"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0498683Z ^[[36;1m      echo "Image tag (updated): $METRICS_TAG"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0499317Z ^[[36;1m    fi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0499924Z ^[[36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0500976Z ^[[36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0501981Z ^[[36;1m    if ! docker image pull $METRICS_IMAGE; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0502940Z ^[[36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0504053Z ^[[36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0504704Z ^[[36;1m    fi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0505561Z ^[[36;1m  # Rebuild image^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0506500Z ^[[36;1m  else^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0507570Z ^[[36;1m    echo "Using an unreleased version ($METRICS_VERSION)"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0508651Z ^[[36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0509311Z ^[[36;1m  fi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0509784Z ^[[36;1m# Forked action^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0510287Z ^[[36;1melse^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0510770Z ^[[36;1m  echo "Using a forked version"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0511466Z ^[[36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0512157Z ^[[36;1mfi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0512638Z ^[[36;1mecho "Image name: $METRICS_IMAGE"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0513240Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0513987Z ^[[36;1m# Build image if necessary^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0514774Z ^[[36;1mset +e^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0515278Z ^[[36;1mdocker image inspect $METRICS_IMAGE^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0515934Z ^[[36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0516526Z ^[[36;1mset -e^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0517091Z ^[[36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0518046Z ^[[36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0518957Z ^[[36;1m  docker build -t $METRICS_IMAGE .^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0519561Z ^[[36;1melse^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0520107Z ^[[36;1m  echo "Image $METRICS_IMAGE is present locally"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0520759Z ^[[36;1mfi^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0521219Z ^[[36;1mecho "::endgroup::"^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0521745Z ^[[36;1m^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0522262Z ^[[36;1m# Run docker image with current environment^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0523859Z ^[[36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0525103Z ^[[36;1mrm .env^[[0m
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0818347Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0819359Z env:
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0819931Z   METRICS_ACTION: __lowlighter_metrics
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0820940Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0821990Z   METRICS_USE_PREBUILT_IMAGE: yes
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.0911613Z   INPUTS: {
+achievements	Run lowlighter/metrics@latest	  "filename": "metrics.achievements.svg",
+achievements	Run lowlighter/metrics@latest	  "token": "***",
+achievements	Run lowlighter/metrics@latest	  "base": "",
+achievements	Run lowlighter/metrics@latest	  "config_timezone": "America/Sao_Paulo",
+achievements	Run lowlighter/metrics@latest	  "config_display": "large",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements": "yes",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_display": "compact",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_threshold": "C",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_secrets": "yes",
+achievements	Run lowlighter/metrics@latest	  "base_indepth": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "base_hireable": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "base_skip": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repositories_batch": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repositories_forks": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repositories_affiliations": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repositories_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "users_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "commits_authoring": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "repo": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "committer_token": "***",
+achievements	Run lowlighter/metrics@latest	  "committer_branch": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "committer_message": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "committer_gist": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "markdown": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "markdown_cache": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "output_action": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "output_condition": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "optimize": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "setup_community_templates": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "template": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "query": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "extras_css": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "extras_js": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "github_api_rest": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "github_api_graphql": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_order": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_twemoji": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_gemoji": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_octicon": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_animations": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_base64": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_padding": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_output": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "config_presets": "",
+achievements	Run lowlighter/metrics@latest	  "retries": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "retries_delay": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "retries_output_action": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "retries_delay_output_action": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "clean_workflows": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "delay": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "quota_required_rest": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "quota_required_graphql": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "quota_required_search": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "notice_releases": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "use_prebuilt_image": "yes",
+achievements	Run lowlighter/metrics@latest	  "plugins_errors_fatal": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "debug": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "verify": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "debug_flags": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "debug_print": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "dryrun": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "experimental_features": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "use_mocked_data": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_isocalendar": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_isocalendar_duration": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_threshold": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_other": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_colors": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_aliases": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_details": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_indepth": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_indepth_custom": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_analysis_timeout": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_categories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_recent_categories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_recent_load": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_languages_recent_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_charts": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_charts_type": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_worldmap": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_worldmap_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stargazers_worldmap_sample": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines_repositories_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines_history_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_lines_delay": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_topics": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_topics_mode": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_topics_sort": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_topics_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stars": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stars_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_licenses": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_licenses_setup": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_licenses_ratio": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_licenses_legal": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_from": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_facts": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_charts": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_charts_type": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_trim": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_languages_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_habits_languages_threshold": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_base": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_head": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_contributions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_contributors_categories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_followup": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_followup_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_followup_indepth": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_followup_archived": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_limit_issues": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_limit_discussions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_limit_discussions_comments": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_display": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_details": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_reactions_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_identicons": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_identicons_hide": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_size": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_types": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_thanks": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_sponsors_custom": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_people_shuffle": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsorships": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsorships_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsorships_size": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsors": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsors_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsors_past": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsors_size": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_sponsors_title": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_featured": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_pinned": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_starred": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_random": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_order": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_forks": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_repositories_affiliations": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_discussions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_discussions_categories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_discussions_categories_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_limit_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_languages": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_limit_languages": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_languages_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_languages_aliases": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_shuffle_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_starlists_only": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_calendar": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_calendar_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_achievements_only": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_filter": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_from": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_indepth": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_types": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_notable_self": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_load": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_visibility": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_timestamps": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_activity_filter": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_traffic": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_traffic_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_lines": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_load": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_visibility": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_skipped": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_code_languages": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_gists": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_projects": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_projects_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_projects_repositories": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_projects_descriptions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_introduction": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_introduction_title": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline_year": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline_frames": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline_quality": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline_compatibility": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_skyline_settings": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_support": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed_url": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed_detailed": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed_screenshot": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_pagespeed_pwa": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_tweets": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_tweets_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_tweets_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_tweets_attachments": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_tweets_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow_lines": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stackoverflow_lines_snippet": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_medias": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_limit_characters": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_anilist_shuffle": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_provider": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_mode": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_playlist": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_played_at": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_time_range": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_music_top_type": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts_source": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts_descriptions": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts_covers": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_posts_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_rss": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_rss_source": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_rss_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_url": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_languages_other": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_languages_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_wakatime_repositories_visibility": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode_limit_skills": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode_ignored_skills": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_leetcode_limit_recent": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_user": "",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_games_ignored": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_games_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_recent_games_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_achievements_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_steam_playtime_threshold": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_16personalities": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_16personalities_url": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_16personalities_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_16personalities_scores": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_chess": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_chess_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_chess_user": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_chess_platform": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_chess_animation": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_fortune": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_url": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_datapoints": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_lowalert": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_highalert": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_urgentlowalert": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_nightscout_urgenthighalert": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_poopmap": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_poopmap_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_poopmap_days": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_title": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_url": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_selector": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_mode": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_viewport": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_wait": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_screenshot_background": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_sections": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_versus_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_salmon_limit": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_statink": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_statink_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_splatoon_source": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stock": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stock_token": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stock_symbol": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stock_duration": "<default-value>",
+achievements	Run lowlighter/metrics@latest	  "plugin_stock_interval": "<default-value>"
+achievements	Run lowlighter/metrics@latest	}
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1010240Z   TZ: America/Sao_Paulo
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1010764Z ##[endgroup]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1194466Z ##[group]Metrics docker image setup
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1195613Z GitHub action: __lowlighter_metrics (/home/runner/work/_actions/lowlighter/metrics/latest)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1196597Z Runner compatibility: compatible
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1361380Z Environment variables: loaded
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1507679Z Renders output folder: /metrics_renders
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1528331Z Source: lowlighter
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1544880Z Version: 3.34.0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1565102Z Image tag: v3.34
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1596624Z Is released version: 1
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.1598439Z Using pre-built version v3.34, will pull docker image from GitHub registry
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9592053Z v3.34: Pulling from lowlighter/metrics
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9594236Z 360eba32fa65: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9595251Z 24f632c8bcc8: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9596175Z 6beeb28cf70c: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9597054Z 6b93b28e5314: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9598449Z 6356377ba599: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9599864Z 58ca9cb318d6: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9601231Z 4f4fb700ef54: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9602526Z 2c07b57d43b5: Pulling fs layer
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9604089Z 58ca9cb318d6: Waiting
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9605196Z 6b93b28e5314: Waiting
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9606133Z 4f4fb700ef54: Waiting
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9606857Z 2c07b57d43b5: Waiting
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:13.9607598Z 6356377ba599: Waiting
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.2262935Z 24f632c8bcc8: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.2265619Z 24f632c8bcc8: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.6523010Z 6b93b28e5314: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.6526181Z 6b93b28e5314: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.6583507Z 360eba32fa65: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.6584691Z 360eba32fa65: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.8574430Z 6beeb28cf70c: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.9223712Z 6beeb28cf70c: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.9225032Z 6356377ba599: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:14.9225482Z 6356377ba599: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:15.1018606Z 4f4fb700ef54: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:15.1019232Z 4f4fb700ef54: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:15.2555957Z 58ca9cb318d6: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:15.2556599Z 58ca9cb318d6: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:15.9059621Z 360eba32fa65: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:18.9090090Z 24f632c8bcc8: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:22.2130299Z 6beeb28cf70c: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:22.3066036Z 6b93b28e5314: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:22.3205152Z 6356377ba599: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:22.6704108Z 58ca9cb318d6: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:22.6790579Z 4f4fb700ef54: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:25.9826351Z 2c07b57d43b5: Verifying Checksum
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:25.9826880Z 2c07b57d43b5: Download complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2176959Z 2c07b57d43b5: Pull complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2217533Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2230604Z Status: Downloaded newer image for ghcr.io/lowlighter/metrics:v3.34
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2240619Z ghcr.io/lowlighter/metrics:v3.34
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2283898Z Image name: ghcr.io/lowlighter/metrics:v3.34
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2457649Z [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2458229Z     {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2458873Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2459939Z         "RepoTags": [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2460391Z             "ghcr.io/lowlighter/metrics:v3.34"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2461125Z         ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2461655Z         "RepoDigests": [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2462694Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2464583Z         ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2464932Z         "Parent": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2465619Z         "Comment": "buildkit.dockerfile.v0",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2466161Z         "Created": "2023-09-12T22:32:04.433116016Z",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2466868Z         "DockerVersion": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2467472Z         "Author": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2468048Z         "Config": {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2468631Z             "Hostname": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2469207Z             "Domainname": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2469836Z             "User": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2470384Z             "AttachStdin": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2471004Z             "AttachStdout": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2471652Z             "AttachStderr": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2472260Z             "Tty": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2472835Z             "OpenStdin": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2475902Z             "StdinOnce": false,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2476482Z             "Env": [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2477026Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2477675Z                 "NODE_VERSION=20.6.1",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2478126Z                 "YARN_VERSION=1.22.19",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2478648Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2479224Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2479812Z             ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2480242Z             "Cmd": null,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2480750Z             "Image": "",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2481320Z             "Volumes": null,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2481817Z             "WorkingDir": "/metrics",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2482244Z             "Entrypoint": [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2482620Z                 "/bin/sh",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2483003Z                 "-c",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2483655Z                 "node /metrics/source/app/action/index.mjs"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2484087Z             ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2484354Z             "OnBuild": null,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2484736Z             "Labels": null
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2485108Z         },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2485453Z         "Architecture": "amd64",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2485877Z         "Os": "linux",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2486561Z         "Size": 2384506652,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2486951Z         "GraphDriver": {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2487319Z             "Data": {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2491967Z                 "LowerDir": "/var/lib/docker/overlay2/8f3395f67b6052c3f9f3bd10c491dbf891f4d5bfb10ece4e76a8da79a059b88f/diff:/var/lib/docker/overlay2/10b9c0e4c5b4852fd8c12cc20137e42357b4b863a20c119cbdd486cc28559ac5/diff:/var/lib/docker/overlay2/43e375ad8fca806bd726740ce0c09978a9a2bec81a8aa5db069e73f3e0df856c/diff:/var/lib/docker/overlay2/0c1fff29f06d1fb0147ec09f29cd7f3fa9588a366cea8cbfe74c911325cafbd8/diff:/var/lib/docker/overlay2/87214fee6ba71d3aaf80f268eef289cb277cbe831a2755cc69c2845e8a5b73b5/diff:/var/lib/docker/overlay2/ac9248dd3697b41e4c8f1e5863e630fb028094ad61a21254ebd89f257ec6890e/diff:/var/lib/docker/overlay2/432304d43c87f91fe16e4ce3c54d0202290441c1ddafb9886ccfbfbda03878a6/diff",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2497543Z                 "MergedDir": "/var/lib/docker/overlay2/bb5f570b1aecaa750ee1a09e193750ab31998e76eba3d67ec4c4d082c2b9e293/merged",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2499010Z                 "UpperDir": "/var/lib/docker/overlay2/bb5f570b1aecaa750ee1a09e193750ab31998e76eba3d67ec4c4d082c2b9e293/diff",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2500458Z                 "WorkDir": "/var/lib/docker/overlay2/bb5f570b1aecaa750ee1a09e193750ab31998e76eba3d67ec4c4d082c2b9e293/work"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2501369Z             },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2501707Z             "Name": "overlay2"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2502098Z         },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2502406Z         "RootFS": {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2502763Z             "Type": "layers",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2503176Z             "Layers": [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2504256Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2505518Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2506901Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2508269Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2509488Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2510593Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2511812Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2512991Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2514360Z             ]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2514695Z         },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2515006Z         "Metadata": {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2515401Z             "LastTagTime": "0001-01-01T00:00:00Z"
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2515973Z         }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2516378Z     }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2516799Z ]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2517395Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:55.2519951Z ##[endgroup]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.2233756Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.2245656Z ^[[36mMetrics^[[0m                                                         │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.5559329Z Setup                                                           │ complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.5560029Z Version                                                         │ 3.34.0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7483699Z Using prebuilt image                                            │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7484768Z Debug mode                                                      │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7485608Z Debug flags                                                     │ (none)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7486479Z GitHub token                                                    │ (provided)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7487432Z GitHub token format                                             │ classic
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7488323Z GitHub GraphQL API                                              │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7491310Z GitHub GraphQL API endpoint                                     │ (default)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7543877Z GitHub REST API                                                 │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:57.7545554Z GitHub REST API endpoint                                        │ (default)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.0707730Z API requests (REST)                                             │ 5000/5000 (200+ required)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.0708590Z API requests (GraphQL)                                          │ 4999/5000 (200+ required)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.0709345Z API requests (Search)                                           │ 30/30
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.1971371Z Token validity                                                  │ seems ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3561784Z GitHub account                                                  │ pedroleitep
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3562883Z Current repository                                              │ pedroleitep/pedroleitep
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3564207Z Committer token                                                 │ (provided)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3565075Z Committer branch                                                │ main
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3565940Z Committer head branch                                           │ main
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.3593062Z Committer REST API                                              │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.5509713Z Committer account                                               │ (github-actions)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:58.7747267Z Committer head branch status                                    │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1141239Z Previous render sha                                             │ (none)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1142541Z SVG output                                                      │ metrics.achievements.svg
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1144586Z SVG optimization                                                │ css, xml
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1148128Z SVG verification after generation                               │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1149662Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1150965Z ^[[36mTemplates^[[0m                                                       │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1152029Z Community templates                                             │ (none)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1153047Z Template used                                                   │ classic
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1154456Z Query additional params                                         │ {}
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1155632Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1157204Z ^[[36mCore^[[0m                                                            │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1158267Z Markdown template path                                          │ TEMPLATE.md
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1159586Z Extra CSS                                                       │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1160701Z Extra JavaScript                                                │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1161787Z Timezone for dates                                              │ America/Sao_Paulo
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1162785Z Plugin order                                                    │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1164008Z Use twemojis                                                    │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1165046Z Use GitHub custom emojis                                        │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1166068Z Use GitHub octicons                                             │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1167096Z Display width (for image output formats)                        │ large
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1168128Z Use CSS animations                                              │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1169153Z Base64-encoded images                                           │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1170276Z Output padding                                                  │ 0, 8 + 11%
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1171310Z Output format                                                   │ auto
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1172659Z Configuration presets                                           │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1173937Z Notice about new releases of metrics                            │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1175038Z Experimental features                                           │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1176232Z Plugin errors                                                   │ (displayed in generated image)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1177433Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1178561Z ^[[36mBase content^[[0m                                                    │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1179609Z Fetched repositories                                            │ 100
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1180684Z Indepth mode                                                    │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1181777Z Show `Available for hire!` in header section                    │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1182883Z Skip base content                                               │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1184273Z Fetched repositories per query                                  │ 100
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1186021Z Include forks                                                   │ false
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1187270Z Repositories affiliations                                       │ owner
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1188642Z Default skipped repositories                                    │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1190189Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1191724Z Identifiers that has been used for authoring commits            │ .user.login
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1192818Z Base sections                                                   │ (none)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1194460Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1195550Z ^[[36mAchievements^[[0m                                                    │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1196592Z Rank threshold filter                                           │ C
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1197613Z Secrets achievements                                            │ true
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1198634Z Display style                                                   │ compact
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1199604Z Display limit                                                   │ 0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1200560Z Ignored achievements                                            │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1201529Z Showcased achievements                                          │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1238437Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:17:59.1240041Z ^[[36mRendering^[[0m                                                       │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1004619Z ##[group]1 error(s) occurred
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1008999Z Status                                                          │ complete
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1010710Z MIME type                                                       │ image/svg+xml
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1011357Z [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1011674Z   {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1012459Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1013867Z     name: 'achievements',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1014586Z ^[[36mSaving^[[0m                                                          │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1015438Z Output condition                                                │ always
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1016242Z     result: {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1016644Z       error: {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1017006Z         message: 'Unexpected error',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1017755Z         instance: GraphqlResponseError: Request failed due to following response errors:
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1019581Z          - Projects (classic) is being deprecated in favor of the new Projects experience, see: https://github.blog/changelog/2024-05-23-sunset-notice-projects-classic/.
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1021181Z             at /metrics/node_modules/@octokit/graphql/dist-node/index.js:113:13
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1022055Z             at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1023079Z             at async Module.default (file:///metrics/source/plugins/achievements/list/users.mjs:4:18)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1024551Z             at async Object.default [as achievements] (file:///metrics/source/plugins/achievements/index.mjs:18:5)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1025519Z             at async file:///metrics/source/plugins/core/index.mjs:67:30
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1026117Z             at async Promise.all (index 0)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1026733Z             at async metrics (file:///metrics/source/app/metrics/index.mjs:81:22)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1027661Z             at async retry.retries.retries (file:///metrics/source/app/action/index.mjs:407:40)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1028811Z             at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1029591Z             at async file:///metrics/source/app/action/index.mjs:406:28 {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1030182Z           request: {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1030611Z             query: 'query AchievementsDefault {\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1031093Z               '\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1031531Z               '  user(login: "pedroleitep") {\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1032259Z               '    repositories(first: 1, privacy: PUBLIC, affiliations: OWNER, orderBy: {field: CREATED_AT, direction: ASC}) {\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1032813Z               '      nodes {\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1033255Z               '        createdAt\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1034049Z               '        nameWithOwner\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1034713Z               '      }\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1035159Z               '      totalCount\n' +
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1035607Z               '    '... 2091 more characters
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1036030Z           },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1036333Z           headers: {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1036750Z             'access-control-allow-origin': '*',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1038539Z             'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Requ'... 36 more characters,
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1041418Z             'content-security-policy': "default-src 'none'",
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1041840Z             'content-type': 'application/json; charset=utf-8',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1042184Z             date: 'Tue, 29 Sep 2026 01:18:08 GMT',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1042586Z             'github-authentication-token-expiration': '2026-10-29 01:15:51 UTC',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1043147Z             'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1043881Z             server: 'github.com',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1044272Z             'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1044944Z             'transfer-encoding': 'chunked',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1045275Z             vary: 'Accept-Encoding, Accept, X-Requested-With',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1045620Z             'x-accepted-oauth-scopes': 'repo',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1045925Z             'x-content-type-options': 'nosniff',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1046211Z             'x-frame-options': 'deny',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1046476Z             'x-github-edge-region': 'iad',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1046795Z             'x-github-media-type': 'github.v3; format=json',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1047171Z             'x-github-request-id': '2800:74CFA:14E00A:45B7F4:6ABB11CF',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1047518Z             'x-oauth-scopes': 'read:user',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1047786Z             'x-ratelimit-limit': '5000',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1048076Z             'x-ratelimit-remaining': '4983',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1048363Z             'x-ratelimit-reset': '1790647836',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1048649Z             'x-ratelimit-resource': 'graphql',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1048931Z             'x-ratelimit-used': '17',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1049194Z             'x-xss-protection': '0'
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1049432Z           },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1049617Z           response: {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1049834Z             data: { user: null },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1050071Z             errors: [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1050261Z               {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1050460Z                 type: 'NOT_FOUND',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1050718Z                 path: [ 'user', 'projects' ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1051018Z                 locations: [ { line: 50, column: 5 } ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1051791Z                 message: 'Projects (classic) is being deprecated in favor of the new Projects experience, see: https://github.blog/changelog/2024-05-23-sunset-notice-projects-classic/.'
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1052670Z               }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1052857Z             ]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1053033Z           },
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1053218Z           errors: [
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1053734Z             {
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1054064Z               type: 'NOT_FOUND',
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1054341Z               path: [ 'user', 'projects' ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1054627Z               locations: [ { line: 50, column: 5 } ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1055384Z               message: 'Projects (classic) is being deprecated in favor of the new Projects experience, see: https://github.blog/changelog/2024-05-23-sunset-notice-projects-classic/.'
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1056120Z             }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1056292Z           ],
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1056478Z           data: { user: null }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1056700Z         }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1056869Z       }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1057033Z     }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1057199Z   }
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1057364Z ]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1057929Z ##[endgroup]
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1058381Z Save to /metrics_renders/metrics.achievements.svg               │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1058858Z Output action                                                   │ commit
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.1146669Z Current render sha                                              │ c505b1b9a2eb8f7f97e80d555149243746118a52
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.9655015Z Commit to branch main                                           │ ok
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.9655820Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.9656433Z ^[[36mConsumed API requests^[[0m                                           │  
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:13.9656999Z   * provided that no other app used your quota during execution │ 
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.1164427Z REST API                                                        │ 0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.1165333Z GraphQL API                                                     │ 0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.1167791Z Search API                                                      │ 0
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.1168699Z ────────────────────────────────────────────────────────────────────────────────────────
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.1169711Z Success, thanks for using metrics!
+achievements	Run lowlighter/metrics@latest	2026-09-29T01:18:14.2799707Z ##[end-action id=__lowlighter_metrics.__run;outcome=success;conclusion=success;duration_ms=61239]
+achievements	Complete job	﻿2026-09-29T01:18:14.2888829Z Cleaning up orphan processes

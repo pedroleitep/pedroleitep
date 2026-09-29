@@ -29,7 +29,7 @@
 ### Achievements:
 
 <div align="center">
-  <img width="100%" src="./metrics.achievements.svg" alt="GitHub achievements" />
+  <img width="100%" src="./achievements.svg" alt="GitHub achievements" />
 </div>
 
 ### Main skills:
@@ -97,7 +97,7 @@
 </div>
 
 <div align="center">
-    <img src="https://komarev.com/ghpvc/?username=pedroleitep&color=5817fc" alt="Profile views" />
+    <img src="https://hits.sh/github.com/pedroleitep.svg?style=for-the-badge&label=Profile%20views&color=5817fc&labelColor=0d1117" alt="Profile views" />
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5817fc&height=120&section=footer"/>
