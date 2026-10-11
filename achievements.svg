@@ -92,9 +92,9 @@
     <circle cx="38" cy="38" r="24" fill="#5817fc22" stroke="#5817fc" stroke-width="2"/>
     <g transform="translate(26,26)"><path d="M3 12l4-4 5 5 5-5 4 4M7 16l3 3M11 16l3 3M14 13l3 3" fill="none" stroke="#5817fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text x="74" y="30" fill="#e6edf3" font-size="15" font-weight="600">Contributor</text>
-    <text x="74" y="50" fill="#8b949e" font-size="12">12 repos contributed to</text>
+    <text x="74" y="50" fill="#8b949e" font-size="12">11 repos contributed to</text>
     <rect x="74" y="62" width="150" height="5" rx="2.5" fill="#30363d"/>
-    <rect x="74" y="62" width="105.0" height="5" rx="2.5" fill="#5817fc"/>
+    <rect x="74" y="62" width="90.0" height="5" rx="2.5" fill="#5817fc"/>
     <rect x="192" y="12" width="26" height="20" rx="5" fill="#5817fc"/>
     <text x="205" y="27" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">B</text>
   </g>
@@ -105,7 +105,7 @@
     <text x="74" y="30" fill="#e6edf3" font-size="15" font-weight="600">Veteran</text>
     <text x="74" y="50" fill="#8b949e" font-size="12">2.6 years on GitHub</text>
     <rect x="74" y="62" width="150" height="5" rx="2.5" fill="#30363d"/>
-    <rect x="74" y="62" width="41.6" height="5" rx="2.5" fill="#5817fc"/>
+    <rect x="74" y="62" width="41.9" height="5" rx="2.5" fill="#5817fc"/>
     <rect x="192" y="12" width="26" height="20" rx="5" fill="#5817fc"/>
     <text x="205" y="27" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">B</text>
   </g>
